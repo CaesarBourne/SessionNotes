@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sessionnotes",
+  "info": {
+    "singularName": "sessionnote",
+    "pluralName": "sessionnotes",
+    "displayName": "sessionnote"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "date": {
+      "type": "date"
+    },
+    "isPrivate": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": "blocks"
+    },
+    "summary": {
+      "type": "string"
+    }
+  }
+}
